@@ -2,7 +2,7 @@ export default function WindowTwitch () {
   return (
     <>
       <iframe 
-        src="https://player.twitch.tv/?channel=jerlapive&parent=www.example.com" 
+        src="https://player.twitch.tv/?channel=jerlapive&parent=https://jerlapive-2.vercel.app/" 
         width = "500"
         height = "250"
       />
