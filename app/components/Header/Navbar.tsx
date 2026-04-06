@@ -17,9 +17,9 @@ export default function Navbar() {
         />
       </Link>
       <ul className="flex items-center gap-4 flex-1">
-        <Link href="/games"><li className="h-8 flex items-center">Mes jeux</li></Link>
-        <Link href="/phasmophobia"><li className="h-8 flex items-center">Phasmophobia</li></Link>
-        <Link href="/challenge"><li className="h-8 flex items-center">Mes défis</li></Link>
+        <Link href="/pages/games"><li className="h-8 flex items-center">Mes jeux</li></Link>
+        <Link href="/pages/phasmophobia"><li className="h-8 flex items-center">Phasmophobia</li></Link>
+        <Link href="/pages/challenge"><li className="h-8 flex items-center">Mes défis</li></Link>
       </ul>
       <Search />
     </nav>
