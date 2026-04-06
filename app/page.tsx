@@ -10,7 +10,7 @@ export default function App () {
         <main className="flex flex-col m-3 items-center">
           <WindowTwitch />
           <div className="flex flex-row justify-between gap-5" >
-            <div className="flex flex-col">
+            <div className="flex flex-col min-w-1/2">
               <h1 className="mb-5 text-center">A propos de moi</h1>
               <div id="About" className="bg-foreground text-gray-background">
                 <p className="p-2">
@@ -21,7 +21,7 @@ export default function App () {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col min-w-1/2">
               <h1 className="mb-5 text-center">Mes dernieres vidéos</h1>
                 <div id="About" className="bg-foreground text-gray-background">
                 <p className="p-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex aut non dolor eligendi temporibus, placeat ipsum eveniet? Quis eos eius repellendus, minus corrupti et praesentium consectetur voluptatum consequatur, nam aut.</p>
