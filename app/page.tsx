@@ -1,6 +1,6 @@
 import Header from './components/Header/Header'
 import Body from './components/Body/Body'
-// import WindowTwitch from './components/Body/WindowTwitch'
+import WindowTwitch from './components/Body/WindowTwitch'
 import Card from './components/Body/Card'
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
       <Header/>
        <Body>
         <main className="flex flex-col m-3 items-center">
-          {/* <WindowTwitch /> */}
+           <WindowTwitch />
            <div className="flex flex-row justify-between gap-5" >
             <Card title="A propos de moi" id='About'>
                 <p className="p-2">
