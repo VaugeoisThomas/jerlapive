@@ -12,10 +12,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@theme  {
-  --color-black-light: #2A2D2E;
-  --color-black-lighter: #3B3E40;
-  --color-gray-background: #40484A;
+@theme {
+  --color-black-light: #2a2d2e;
+  --color-black-lighter: #3b3e40;
+  --color-gray-background: #40484a;
 }
 
 @media (prefers-color-scheme: dark) {
