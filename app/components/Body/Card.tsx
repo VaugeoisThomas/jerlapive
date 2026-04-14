@@ -9,7 +9,7 @@ export default function Card({ title, children, id }: Props) {
     return (
         <div className="flex-col min-w-1/2">
             <h1 className="mb-5 text-center">{title}</h1>
-            <div id={id} className="bg-foreground text-gray-background">
+            <div id={id} className="bg-black-lighter outline rounded-2xl">
                 {children}
             </div>
         </div>

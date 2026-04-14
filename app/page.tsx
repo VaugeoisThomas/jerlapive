@@ -1,16 +1,16 @@
 import Header from './components/Header/Header'
 import Body from './components/Body/Body'
-import WindowTwitch from './components/Body/WindowTwitch'
+// import WindowTwitch from './components/Body/WindowTwitch'
 import Card from './components/Body/Card'
 
 export default function App() {
   return (
     <>
       <Header/>
-      <Body>
+       <Body>
         <main className="flex flex-col m-3 items-center">
-          <WindowTwitch />
-          <div className="flex flex-row justify-between gap-5" >
+          {/* <WindowTwitch /> */}
+           <div className="flex flex-row justify-between gap-5" >
             <Card title="A propos de moi" id='About'>
                 <p className="p-2">
                   Streamer de 39 ans, je suis amoureux des jeux vidéos depuis que je suis petit.<br />
@@ -23,7 +23,7 @@ export default function App() {
 
             </Card>
           </div>
-        </main>
+        </main> 
       </Body>
     </>
   )

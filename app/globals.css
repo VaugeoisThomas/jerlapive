@@ -2,7 +2,7 @@
 
 :root {
   --background: var(--color-gray-background);
-  --foreground: #ffffff;
+  --foreground: #59F1BE;
 }
 
 @theme inline {
@@ -16,13 +16,7 @@
   --color-black-light: #2a2d2e;
   --color-black-lighter: #3b3e40;
   --color-gray-background: #40484a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #fff;
-  }
+  --color-green-shadow: #63F7C1;
 }
 
 body {
