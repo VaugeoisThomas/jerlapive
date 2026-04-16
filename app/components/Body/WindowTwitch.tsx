@@ -5,6 +5,7 @@ export default function WindowTwitch () {
         src="https://player.twitch.tv/?channel=jerlapive&parent=jerlapive.vercel.app" 
         width = "1000"
         height = "300"
+        className = "border border-foreground rounded-2xl"
       />
     </>
   )
