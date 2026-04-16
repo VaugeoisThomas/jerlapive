@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Header />
-      {/* <Body>
+      <Body>
         <main className="flex flex-col m-3 items-center">
           <WindowTwitch />
           <div className="flex flex-row justify-between mt-20 gap-2">
@@ -26,7 +26,7 @@ export default function App() {
             </Card>
           </div>
         </main>
-      </Body> */}
+      </Body>
     </>
   )
 }
