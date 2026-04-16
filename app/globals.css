@@ -2,7 +2,9 @@
 
 :root {
   --background: var(--color-gray-background);
-  --foreground: #59F1BE;
+  --foreground: #59f1be;
+  --shadow-Jerlapive:
+    0 4px 6px -1px rgb(99 247 193 0.1), 0 2px 4px -2px rgb(99 247 193 0.1);
 }
 
 @theme inline {
@@ -16,11 +18,26 @@
   --color-black-light: #2a2d2e;
   --color-black-lighter: #3b3e40;
   --color-gray-background: #40484a;
-  --color-green-shadow: #63F7C1;
+  --color-jerlapive-shadow: #63f7c1;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .nav-link {
+    background-color: var(--bg-gray-background);
+    padding: calc(var(--spacing) * 4);
+
+    @variant hover {
+      box-shadow: 0 10px 15px -3px rgb(99 247 193), 
+                  0 4px 6px -4px rgb(99 247 193);
+      /*shadow-sm
+box-shadow: var(--shadow-sm); /* 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)*/
+      border-radius: 8px;
+    }
+  }
 }
